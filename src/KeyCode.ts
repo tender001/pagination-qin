@@ -1,4 +1,4 @@
-const KeyCode =  {
+const KeyCode = {
   ZERO: 48,
   NINE: 57,
 
