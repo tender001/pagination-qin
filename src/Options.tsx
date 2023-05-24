@@ -114,7 +114,7 @@ class Options extends React.Component<Props, State> {
     let changeSelect = null;
 
     if (!changeSize && !quickGo) {
-      return null;
+      return <div />;
     }
 
     const pageSizeOptions = this.getPageSizeOptions();

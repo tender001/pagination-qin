@@ -117,7 +117,7 @@ class Input extends React.Component<Props, State> {
       );
     }
 
-    return <li className={`${prefixCls}`}>{goInput}</li>;
+    return goInput ? <li className={`${prefixCls}`}>{goInput}</li> : <></>;
   }
 }
 
